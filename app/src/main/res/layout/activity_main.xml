@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/root"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F0F0F0"
+	android:gravity="center"
+	android:orientation="vertical"
+	tools:context=".MainActivity"
+	>
+
+	<Button
+		android:id="@+id/dialog12Button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Show 12-Hour Time Picker"
+		tools:ignore="HardcodedText"
+		/>
+
+	<Button
+		android:id="@+id/dialog24Button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="Show 24-Hour Time Picker"
+		tools:ignore="HardcodedText"
+		/>
+
+	<Button
+		android:id="@+id/dialogDate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="Show Date Picker"
+		tools:ignore="HardcodedText"
+		/>
+
+</LinearLayout>
