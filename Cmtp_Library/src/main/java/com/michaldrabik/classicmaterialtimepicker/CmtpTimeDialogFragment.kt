@@ -27,7 +27,7 @@ class CmtpTimeDialogFragment : DialogFragment() {
      * Create new instance of CmtpTimeDialogFragment with CmtpTimePickerView embedded.
      * @param positiveButtonText Custom positive button text. "OK" by default.
      * @param negativeButtonText Custom negative button text. "CANCEL" by default.
-     * @param titleText title
+     * @param titleText title.
      */
     @JvmOverloads
     @JvmStatic
